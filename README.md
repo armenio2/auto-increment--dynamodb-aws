@@ -11,7 +11,7 @@ This project can fix logic problem in auto increment in dynamodb or other non re
 
 ```
 
-###TO START DYNAMO LOCAL
+### TO START DYNAMO LOCAL
 ``` 
 -winzip dynamo
 -java -D"java.library.path=./DynamoDBLocal_lib" -jar DynamoDBLocal.jar
