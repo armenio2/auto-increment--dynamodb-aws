@@ -43,6 +43,13 @@ java -D"java.library.path=./DynamoDBLocal_lib" -jar DynamoDBLocal.jar
 ```
 ![alt text](https://i.imgur.com/y4uVA9B.png)
 
+##### TO GET ALL TABLE
+``` 
+-python getAllTable.py
+
+```
+![alt text](https://i.imgur.com/LJNEDWQ.png)
+
 ## Obs
 
 ```

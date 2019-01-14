@@ -22,8 +22,8 @@ def insert_table():
     #print("Adding data:")
     table.put_item(
         Item={
-            'idfoo': 1,
-            'title': 412341234,
+            'idfoo': 2,
+            'title': 41231231541234,
         }
     )
     print("insertdata cliente")
