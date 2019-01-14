@@ -9,26 +9,34 @@ APP = Flask(__name__)
 
 dynamodb = boto3.resource(
     'dynamodb', region_name='us-west-2', endpoint_url="http://localhost:8000")
+print("colocando o endpoint do dynamo")
+
 
 table = dynamodb.Table('Movies')
+print("linkando a table movies")
 
 
-def insert_data_cliente(json_cliente):
-    print("json chegou")
-    print(json_cliente)
-    print("Adding data:")
+def insert_table():
+    #print("json chegou")
+    # print(json_cliente)
+    #print("Adding data:")
     table.put_item(
         Item={
             'idfoo': 1,
             'title': 412341234,
         }
     )
+    print("insertdata cliente")
 
 
 def main():
     """Function to good practice"""
+    print("def main")
     return APP.run()
 
 
 if __name__ == "__main__":
+    print("antes de exe a insert table")
+    insert_table()
+    print("depois de exe a insert table")
     main()

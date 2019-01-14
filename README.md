@@ -33,12 +33,14 @@ java -D"java.library.path=./DynamoDBLocal_lib" -jar DynamoDBLocal.jar
 -python insertTable.py
 
 ```
+![alt text](https://i.imgur.com/LrLw68Q.png)
 
 ##### TO GET TABLE
 ``` 
 -python getTable.py
 
 ```
+![alt text](https://i.imgur.com/y4uVA9B.png)
 
 ## Obs
 
