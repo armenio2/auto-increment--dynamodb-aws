@@ -18,20 +18,20 @@ This project can fix logic problem in auto increment in dynamodb or other non re
 
 ```
 
-### TO CREATE TABLE
+##### TO CREATE TABLE
 ``` 
 -pip install
 -python createTable.py
 
 ```
 
-### TO INSERT TABLE
+##### TO INSERT TABLE
 ``` 
 -python insertTable.py
 
 ```
 
-### TO GET TABLE
+##### TO GET TABLE
 ``` 
 -python getTable.py
 
