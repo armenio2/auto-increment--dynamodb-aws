@@ -23,7 +23,7 @@ table = dynamodb.create_table(
         },
         {
             'AttributeName': 'title',
-            'AttributeType': 'S'
+            'AttributeType': 'N'
         },
 
     ],
