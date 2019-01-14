@@ -14,9 +14,11 @@ This project can fix logic problem in auto increment in dynamodb or other non re
 ##### TO START DYNAMO LOCAL
 ``` 
 -winzip dynamo
--java -D"java.library.path=./DynamoDBLocal_lib" -jar DynamoDBLocal.jar
+java -D"java.library.path=./DynamoDBLocal_lib" -jar DynamoDBLocal.jar
 
 ```
+![alt text](https://i.imgur.com/WA9LvGn.png)
+![alt text](https://i.imgur.com/XeFGxza.png)
 
 ##### TO CREATE TABLE
 ``` 
@@ -24,6 +26,7 @@ This project can fix logic problem in auto increment in dynamodb or other non re
 -python createTable.py
 
 ```
+![alt text](https://i.imgur.com/bWVbB6U.png)
 
 ##### TO INSERT TABLE
 ``` 

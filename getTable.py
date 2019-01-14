@@ -26,7 +26,7 @@ table = dynamodb.Table('Movies')
 try:
     response = table.get_item(
         Key={
-            'year': 123123,
+            'idfoo': 123123,
             'title': 412341234
         }
     )

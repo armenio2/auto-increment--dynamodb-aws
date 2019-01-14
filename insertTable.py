@@ -19,7 +19,7 @@ def insert_data_cliente(json_cliente):
     print("Adding data:")
     table.put_item(
         Item={
-            'year': 123123,
+            'idfoo': 1,
             'title': 412341234,
         }
     )

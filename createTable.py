@@ -8,7 +8,7 @@ table = dynamodb.create_table(
     TableName='Movies',
     KeySchema=[
         {
-            'AttributeName': 'year',
+            'AttributeName': 'idfoo',
             'KeyType': 'HASH'  #Partition key
         },
         {
@@ -18,7 +18,7 @@ table = dynamodb.create_table(
     ],
     AttributeDefinitions=[
         {
-            'AttributeName': 'year',
+            'AttributeName': 'idfoo',
             'AttributeType': 'N'
         },
         {
