@@ -6,9 +6,13 @@ This project can fix logic problem in auto increment in dynamodb or other non re
 
 ## Getting Started
 
-###TO START DYNAMO LOCAL
 ``` 
 -git clone https://github.com/armenio2/auto-increment--dynamodb-aws.git
+
+```
+
+###TO START DYNAMO LOCAL
+``` 
 -winzip dynamo
 -java -D"java.library.path=./DynamoDBLocal_lib" -jar DynamoDBLocal.jar
 
