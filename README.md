@@ -6,16 +6,30 @@ This project can fix logic problem in auto increment in dynamodb or other non re
 
 ## Getting Started
 
-``` TO START DYNAMO LOCAL
+###TO START DYNAMO LOCAL
+``` 
 -git clone https://github.com/armenio2/auto-increment--dynamodb-aws.git
 -winzip dynamo
 -java -D"java.library.path=./DynamoDBLocal_lib" -jar DynamoDBLocal.jar
 
 ```
 
-``` TO CREATE TABLE
+### TO CREATE TABLE
+``` 
 -pip install
 -python createTable.py
+
+```
+
+### TO INSERT TABLE
+``` 
+-python insertTable.py
+
+```
+
+### TO GET TABLE
+``` 
+-python getTable.py
 
 ```
 
