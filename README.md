@@ -17,14 +17,10 @@ This project can fix logic problem in auto increment in dynamodb or other non re
 java -D"java.library.path=./DynamoDBLocal_lib" -jar DynamoDBLocal.jar
 
 ```
-<tr>
-<th>
+
 ![alt text](https://i.imgur.com/WA9LvGn.png)
-</th>
-<th>
 ![alt text](https://i.imgur.com/XeFGxza.png)
-</th>
-</tr>
+
 ##### TO CREATE TABLE
 ```
 -pip install
