@@ -37,6 +37,14 @@ This project can fix logic problem in auto increment in dynamodb or other non re
 
 ```
 
+## Obs
+
+```
+-Ever u go test, delete dynamo and winzip a new dynamo
+-I need finish this project add get and put table in btn!!
+-Open Issue if u find bug, rember u need clone project, start dynamo, create table, insert table, and get table, next u can open html to test btn.
+```
+
 ## Built With
 
 * [HTML5]
