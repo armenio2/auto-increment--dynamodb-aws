@@ -4,7 +4,7 @@ import json
 import decimal
 from flask import Flask
 from getAllTable import DecimalEncoder
-
+from operator import itemgetter
 
 APP = Flask(__name__)
 
@@ -19,9 +19,13 @@ print("linkando a table movies")
 
 def insert_table():
 
-    response = DecimalEncoder.default()
+    response = DecimalEncoder()
     print("response do getall")
     print(response)
+    data = json.loads("whatever")
+    latest_goal = max(data["response"], key=itemgetter("idfoo"))
+    print("latest_goal teste")
+    print(latest_goal)
     #print("json chegou")
     # print(json_cliente)
     #print("Adding data:")
